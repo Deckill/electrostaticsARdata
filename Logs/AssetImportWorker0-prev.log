@@ -1,0 +1,119 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/michelem/Dropbox/git_repos/PlottingVirgoGalaxyData
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52589
+Successfully changed project path to: /Users/michelem/Dropbox/git_repos/PlottingVirgoGalaxyData
+/Users/michelem/Dropbox/git_repos/PlottingVirgoGalaxyData
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 36.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.7f1 (c53830e277f1)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/michelem/Dropbox/git_repos/PlottingVirgoGalaxyData/Assets
+GfxDevice: creating device client; threaded=0
+2021-05-27 17:10:40.239 Unity[20014:683779] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-05-27 17:10:40.239 Unity[20014:683779] Metal devices available: 1
+2021-05-27 17:10:40.239 Unity[20014:683779] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-05-27 17:10:40.240 Unity[20014:683779] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56014
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000850 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 41.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.634 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000656 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.501 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1184 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.8 MB.
+System memory in use after: 117.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1627.
+Total: 3.409717 ms (FindLiveObjects: 0.485608 ms CreateObjectMapping: 0.129655 ms MarkObjects: 2.676719 ms  DeleteObjects: 0.114748 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Data/VirgoIII-filament.csv
+  artifactKey: Guid(750d9a278627348399756bee092fc530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/VirgoIII-filament.csv using Guid(750d9a278627348399756bee092fc530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ad274ef1a507987025c3f53a6497d0') in 6.110562 seconds
+  Import took 6.114674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Data/Backwards-VirgoIII-spine.csv
+  artifactKey: Guid(379d73caa33c14526b7f695f20202977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Backwards-VirgoIII-spine.csv using Guid(379d73caa33c14526b7f695f20202977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73d5c7174c96151d07c439cd123f780') in 0.005921 seconds
+  Import took 0.008464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Data/VirgoIII-spine.csv
+  artifactKey: Guid(ec94b129bd220444bb0e22d53121040d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/VirgoIII-spine.csv using Guid(ec94b129bd220444bb0e22d53121040d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a6ad713876338fdccc9d0dcf631687') in 0.005556 seconds
+  Import took 0.008078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.487958 seconds.
+  path: Assets/Scripts/PlayerBehavior.cs
+  artifactKey: Guid(06f2dae7963184fe0acc758fd92692e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerBehavior.cs using Guid(06f2dae7963184fe0acc758fd92692e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b7a239c7ff4743f4a0bbee6f75eb2e') in 5.191089 seconds
+  Import took 5.193667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Scripts/Spine_Plotter.cs
+  artifactKey: Guid(52a264276d112462faf38e2a68242764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Spine_Plotter.cs using Guid(52a264276d112462faf38e2a68242764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5332927dc211ca92c0df617a6db623f1') in 0.001736 seconds
+  Import took 0.003776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Scripts/Spine_CSV_Reader.cs
+  artifactKey: Guid(eb23c36becb5b4ad38ec4e85b69baaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Spine_CSV_Reader.cs using Guid(eb23c36becb5b4ad38ec4e85b69baaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a7320642e00d367d88fc37a38ee494') in 0.001583 seconds
+  Import took 0.003661 seconds .
+
