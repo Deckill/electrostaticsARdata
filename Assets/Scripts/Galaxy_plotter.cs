@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
@@ -62,10 +62,10 @@ public class Galaxy_plotter : MonoBehaviour
             Vector3 starLocation = new Vector3(reader.dataSet[i].xPos * scale,
                                                  reader.dataSet[i].yPos * scale,
                                                  reader.dataSet[i].zPos * scale);
-            float scaleFactor = reader.dataSet[i].radius * .05f;  // you can modify the numberical value to change the scale of the isntantiated objects 
-            star.transform.localScale = new Vector3(scaleFactor, scaleFactor, scaleFactor);
+            //float scaleFactor = reader.dataSet[i].radius * .05f;  // you can modify the numberical value to change the scale of the isntantiated objects 
+           // star.transform.localScale = new Vector3(scaleFactor, scaleFactor, scaleFactor);
 
-            float brightFactor = reader.dataSet[i].Mr * .05f;
+           // float brightFactor = reader.dataSet[i].Mr * .05f;
 
             //starMaterial.SetVector("_EmissionColor", new Vector4(0.8196f, 0.783f, 0) * brightFactor);
 

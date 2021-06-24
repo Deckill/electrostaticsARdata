@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
@@ -19,9 +19,9 @@ public class PlayerBehavior : MonoBehaviour
     public int ri = 1;
 
     public Text ID;
-    public Text RADIUS;
-    public Text MASS;
-    public Text MR;
+   // public Text RADIUS;
+   // public Text MASS;
+   // public Text MR;
 
 
 
@@ -29,9 +29,9 @@ public class PlayerBehavior : MonoBehaviour
     void Start()
     {
         ID.text = "default ID";
-        RADIUS.text = "default radius";
-        MASS.text = "default mass";
-        MR.text = "default Mr";
+        //RADIUS.text = "default radius";
+        //MASS.text = "default mass";
+        //MR.text = "default Mr";
     }
 
     // Update is called once per frame
@@ -56,13 +56,13 @@ public class PlayerBehavior : MonoBehaviour
             ID.text = reader.dataSet[i].id;
 
             //Debug.Log(reader.dataSet[i].period);
-            RADIUS.text = reader.dataSet[i].radius.ToString();
+            //RADIUS.text = reader.dataSet[i].radius.ToString();
 
             //Debug.Log(reader.dataSet[i].tooltip);
-            MASS.text = reader.dataSet[i].mass.ToString();
+            //MASS.text = reader.dataSet[i].mass.ToString();
 
             //Debug.Log(reader.dataSet[i].period);
-            MR.text = reader.dataSet[i].Mr.ToString();
+            //MR.text = reader.dataSet[i].Mr.ToString();
 
 
         }

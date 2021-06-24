@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -41,19 +41,14 @@ public class Galaxy_CSV_reader : MonoBehaviour
 
             sequenceEntry.id = (column[0]);
 
-            sequenceEntry.radius = float.Parse(column[1]);
+            sequenceEntry.xPos = float.Parse(column[1]);
 
-            sequenceEntry.xPos = float.Parse(column[2]);
+            sequenceEntry.yPos = float.Parse(column[2]);
 
-            sequenceEntry.yPos = float.Parse(column[3]);
+            sequenceEntry.zPos = float.Parse(column[3]);
 
-            sequenceEntry.zPos = float.Parse(column[4]);
+            sequenceEntry.pot = float.Parse(column[4]);
 
-            sequenceEntry.mass = float.Parse(column[5]);
-
-            sequenceEntry.Mr = float.Parse(column[6]); //absolute magnitude
-
-            sequenceEntry.dist = float.Parse(column[7]); // distance from filament
 
             dataSet[i] = sequenceEntry;
 
@@ -81,11 +76,9 @@ public class Galaxy_CSV_reader : MonoBehaviour
 public class galaxyData
 {
     public string id = "default";
-    public float radius = 0;
     public float xPos = 0;
     public float yPos = 0;
     public float zPos = 0;
-    public float mass = 0;
-    public float Mr = 0;
-    public float dist = 0;
+    public float pot = 0;
+
 }
